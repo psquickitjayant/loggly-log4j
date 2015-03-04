@@ -1,7 +1,7 @@
 # loggly-log4j
 Log4j Appender for Loggly
 
-A Simple Log4j appender to send logs to Loggly via Http or Https asynchronously. 
+A Simple Log4j appender to send logs to Loggly via Http or Https asynchronously. Check out Loggly's [Log4j logging documentation](https://www.loggly.com/docs/java-log4j/) to learn more.
 
 This uses a custom Threadpool to keep the threads in a pool, increasing the performance of the program. This library supports multiple tags and proxy setup for the network connection. 
 
