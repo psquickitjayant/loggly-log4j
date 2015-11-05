@@ -23,7 +23,7 @@ public abstract class LogglyAppenderBase extends AppenderSkeleton {
     protected LogglyThreadPool logglyThreadPool;
 	
     
-    public LogglyAppenderBase(){
+    public void activateOptions(){
 		logglyThreadPool = new LogglyThreadPool(50);
 		
 		ensureLayout();
